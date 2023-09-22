@@ -5,5 +5,5 @@ another one
 
 # WOW! Images
 
-![The San Juan Mountains are beautiful!](/assets/sasaki.jpg "San Juan Mountains")
+![The San Juan Mountains are beautiful!](/assets/sasaki.jpg "sasaki for example")
 **SAN JUAN MOUNTAINS**
