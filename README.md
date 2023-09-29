@@ -6,5 +6,5 @@ another one
 # Quiz 8
 ## PART 1
 
-![ART & CODE 8](/assets/part 1.1.png "sasaki for example.")
+![ART & CODE 8](/assets/part%201.1.png "sasaki for example.")
 **SAN JUAN MOUNTAINS**
