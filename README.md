@@ -3,7 +3,8 @@
 Hello! I made a change\
 another one
 
-# WOW! Images
+# Quiz 8
+## PART 1
 
-![The San Juan Mountains are beautiful!](/assets/sasaki.jpg "sasaki for example")
+![ART & CODE 8](/assets/part 1.1.png "sasaki for example.")
 **SAN JUAN MOUNTAINS**
