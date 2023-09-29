@@ -14,5 +14,7 @@
 
 ![Coding technique](/assets/part2.1.png "A coding technique might helpful.")
 ![Coding technique](/assets/part2.2.png "The code.")
+![Coding technique](/assets/part2.3.png "The code.")
 **Coding Technique**
 
+#### This is a piece of code that can generate various 3D graphics, and these 3D graphics rotate continuously around the center. The graphics in part1 can be realized by superimposing multiple cylinders. Filling these cylinders with the gradient color and adding the stroke color can roughly restore the coding of the graphics far away from the center in the part1 screenshot.
