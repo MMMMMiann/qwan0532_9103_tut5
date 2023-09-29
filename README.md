@@ -12,38 +12,3 @@
 
 ## PART 2
 
-function setup() {
-  createCanvas(710, 400, WEBGL);
-}
-
-function draw() {
-  background(250);
-
-  translate(-240, -100, 0);
-  normalMaterial();
-  push();
-  rotateZ(frameCount * 0.01);
-  rotateX(frameCount * 0.01);
-  rotateY(frameCount * 0.01);
-  plane(70);
-  pop();
-
-
-  translate(240, 0, 0);
-  push();
-  rotateZ(frameCount * 0.01);
-  rotateX(frameCount * 0.01);
-  rotateY(frameCount * 0.01);
-  cylinder(70, 70);
-  pop();
-
-
-  translate(240, 0, 0);
-  push();
-  rotateZ(frameCount * 0.01);
-  rotateX(frameCount * 0.01);
-  rotateY(frameCount * 0.01);
-  torus(70, 20);
-  pop();
-
-}
