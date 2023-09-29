@@ -12,3 +12,7 @@
 
 ## PART 2
 
+![Coding technique](/assets/part2.1.png.png "A coding technique might helpful.")
+![Coding technique](/assets/part2.2.png.png "The code.")
+**Coding Technique**
+
