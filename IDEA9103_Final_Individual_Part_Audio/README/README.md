@@ -14,5 +14,5 @@
 
 ### The final Iteration
 **In the final version, a class was added for drawing the circle that represents the apple in the project.**
-![Interation 3 - in pause](/IDEA9103_Final_Individual_Part_Audio/README/assets/iteration3final.png "the first iteration")
-![Interation 3 - in playing](/IDEA9103_Final_Individual_Part_Audio/README/assets/iteration3playing.png "the first iteration")
+![Interation 3 - in pause](/IDEA9103_Final_Individual_Part_Audio/README/assets/iteration3final.png "the final iteration and the audio is paused")
+![Interation 3 - in playing](/IDEA9103_Final_Individual_Part_Audio/README/assets/iteration3playing.png "the final iteration and the audio is playing")
