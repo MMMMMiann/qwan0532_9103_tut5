@@ -1,4 +1,4 @@
-let circleSize = 120;
+let circleSize = 150;
 let circleRadius = circleSize / 2;
 let bigCircleScale = 1;
 let smallCircleScale = 0.6;
@@ -74,8 +74,8 @@ class Circle {
   }
 
   drawCircleGroup() {
-    let numCircles = 5;
-    let circleSpacing = 15;
+    let numCircles = 4;
+    let circleSpacing = 5;
     let strokeWidth = scaledElement(6) * this.scaleFactor;
 
     push();
@@ -151,10 +151,10 @@ function scaledElement(inputElement) {
 
 function drawButton() {
   //draw the button and make it in wanted style
-  button.size(300, 200);
+  button.size(100, 50);
   button.position(10, 10);
   button.style("font-family", "Comic Sans MS");
-  button.style("font-size", "45px")
+  button.style("font-size", "25px")
 }
 
 function buttonforSong() {
@@ -287,39 +287,6 @@ function drawRoots() {
     rect(width / 2 - (rectRootX3 - i * scaledElement(50)) / 2, height - (rectHeight - (rectRootY3 + i * scaledElement(70)) - scaledElement(60)), rectRootX3 - (i * scaledElement(50)), rectRootY3);
   }
 }
-
-
-// function drawCircleGroup(x, y, radius, scale) {
-//   let numCircles = 5;  // Numbers of concentric circles
-//   let circleSpacing = 20;
-//   let strokeWidth = 6;
-
-//   // get volume level from the music
-//   let level = amp.getLevel();
-
-//   // Calculate the ra dius of the semicircle so that it is equal to the radius of the outermost concentric circle
-//   let halfCircleRadius = radius * scale;
-
-//   push();
-//   //Let the apple rotate around the center
-//   rectMode(CENTER);
-//   translate(x, y); // Translate to specified coordinates
-//   rotate(-radians(frameCount* level*0.3)); // Rotate it follow the music volume levle
-
-//   for (let i = 0; i < numCircles; i++) {
-//     let currentRadius = halfCircleRadius - i * circleSpacing;
-//     noFill();
-//     stroke(15);
-//     strokeWeight(strokeWidth * scale); // Line width, adjusted according to scaling
-//     arc(0, 0, currentRadius * 2 * scale, currentRadius * 2 * scale, 0, PI);
-//   }
-
-//   fill(15);
-//   noStroke();
-//   arc(0, 0, halfCircleRadius * 2 + strokeWidth * scale, halfCircleRadius * 2 + strokeWidth * scale, PI, TWO_PI);
-
-//   pop();
-// }
 
 function calculateCanvasSize() {
   // Check if the aspect ratio of the window is greater than the canvas ratio.

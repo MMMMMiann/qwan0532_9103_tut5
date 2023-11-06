@@ -107,10 +107,10 @@ function scaledElement(inputElement) {
 
 function drawButton() {
   //draw the button and make it in wanted style
-  button.size(300, 200);
+  button.size(100, 50);
   button.position(10, 10);
   button.style("font-family", "Comic Sans MS");
-  button.style("font-size", "45px")
+  button.style("font-size", "25px")
 }
 
 function buttonforSong() {
