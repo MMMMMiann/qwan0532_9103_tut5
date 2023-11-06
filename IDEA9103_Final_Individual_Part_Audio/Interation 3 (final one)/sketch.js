@@ -1,4 +1,4 @@
-let circleSize = 150;
+let circleSize = 120;
 let circleRadius = circleSize / 2;
 let bigCircleScale = 1;
 let smallCircleScale = 0.6;
@@ -64,7 +64,7 @@ class Circle {
     stroke(15);
     strokeWeight(scaledElement(5));
     fill(230);
-    circle(scaledElement(this.x + 200), scaledElement(this.y + 200), scaledElement(this.size * this.scaleFactor));
+    circle(scaledElement(this.x + 200), scaledElement(this.y + 200), scaledElement(this.size * this.scaleFactor*2));
     this.drawCircleGroup();
   }
 
